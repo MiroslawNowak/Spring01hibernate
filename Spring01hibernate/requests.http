@@ -1,0 +1,27 @@
+###
+POST http://localhost:8080/book/create?title=potop&rating=8&description=dobre
+
+###
+POST http://localhost:8080/book/createWithPublisher?title=krzyżacy&rating=5&description=średnie&publisherName=NowaEra
+
+###
+POST http://localhost:8080/book/createWithAuthors?title=potop&rating=8&description=dobre&authorsCsv=Ala,Makota
+
+###
+GET http://localhost:8080/author/1
+
+###
+GET http://localhost:8080/book
+
+###
+GET http://localhost:8080/book/withMinRating/7
+###
+
+POST http://localhost:8080/author/create?name=Adam Mickiewicz
+
+###
+GET http://localhost:8080/book/withMinRating/7
+
+###
+GET http://localhost:8080/book/publishers
+
